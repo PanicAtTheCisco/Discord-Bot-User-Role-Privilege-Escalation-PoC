@@ -23,6 +23,7 @@ A Discord Bot with the capabilities of elevating the users roles on any Discord 
  
  
  # NOTE:
+ * I wrote part of this a while ago, so most of it is not using discord.js v14
  * Bot must be on the server for use
  * There are still a few bugs being worked with the '-create' and '-add' commands so expect a few issues
  * There is no multi-command handling so if more than one person tries to use a command at the same time nothing will happen for either of them.
