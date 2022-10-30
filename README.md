@@ -30,7 +30,7 @@ A Discord Bot with the capabilities of elevating the users roles on any Discord 
  If needed on multiple servers it is recommened to host different instances of the bot
 
 ---
-# 1.3
+# v1.3
 * Fixed security issues detected by GitHub Dependabot
 * Made '-create' and '-add' commands automatically delete themselves in chat after execution to cover tracks
 * Added comments with information regarding different functionality
