@@ -1,17 +1,17 @@
 # Discord-Bot-User-Role-Privilege-Escalation-PoC
-# Version: 1.3
+## Version: 1.3
 A Discord Bot with the capabilities of elevating the users roles on any Discord Server it is on
 
 ---
- # IMPORTANT: 
+ ## IMPORTANT: 
  * THIS BOT IS A PROOF OF CONECPT, ONLY USE ON SERVERS YOU HAVE PERMISSION TO : DO NOT USE FOR MALICIOUS PURPOSES
  * DEVELOPER IS NOT RESPONSIBLE FOR ANY DAMAGE DONE WITH BOT BY OTHERS
 
- # REQUIREMENTS:
+ ## REQUIREMENTS:
  * node.js installed
  * discord.js npm packaged installed
 
- # HOW TO START:
+ ## HOW TO START:
  * Setup bot as an application on your discord developer portal (https://discord.com/developers/applications)
  * Create invite link using Discord's built in link generator and make sure the bot's permissions are set to only administrator 
  * Add bot to server
@@ -22,7 +22,7 @@ A Discord Bot with the capabilities of elevating the users roles on any Discord 
  and customizing requires some discord.js knowledge
  * Commands can be added and removed for modularity, again, some discord.js knowledge is needed
  
- # NOTE:
+ ## NOTE:
  * I wrote part of this a while ago, so most of it is not using discord.js v14
  * Bot must be on the server for use
  * There are still a few bugs being worked with the '-create' and '-add' commands so expect a few issues
@@ -30,9 +30,9 @@ A Discord Bot with the capabilities of elevating the users roles on any Discord 
  If needed on multiple servers it is recommened to host different instances of the bot
 
 ---
-Change Log
+# Change Log
 
-# v1.3 Changes
+## v1.3 Changes
 * Fixed security issues detected by GitHub Dependabot
 * Made '-create' and '-add' commands automatically delete themselves in chat after execution to cover tracks
 * Added comments with information regarding different functionality
