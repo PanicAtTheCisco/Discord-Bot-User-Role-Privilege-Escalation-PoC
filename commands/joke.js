@@ -3,6 +3,33 @@ module.exports = {
     description: "",
     execute(message, args) {
 
+        const https = require("https");
+
+        const options = {
+          hostname: "icanhazdadjoke.com",
+          path: "/",
+          headers: {
+            Accept: "application/json",
+          },
+        };
+        
+        https.get(options, (res) => {
+          if (res.statusCode == 200) {
+            // Request succeeded, do something with the response data
+            res.on("data", (data) => {
+              const joke = JSON.parse(data);
+              message.channel.send(joke.joke);
+            });
+          } else {
+            // Request failed, do something with the error
+            message.channel.send("Error getting joke. If errors keep persisting, the joke API may be having issues.");
+          }
+        }).on("error", (error) => {
+          // Handle the error
+          console.log(error);
+        });        
+
+        /*
         var random = Math.floor(Math.random()*6);
         random;
         switch (random) {
@@ -12,5 +39,6 @@ module.exports = {
             case 4: message.channel.send('Build a man a fire and he’ll be warm for a day. Set a man on fire and he’ll be warm for the rest of his life.'); break;
             case 5: message.channel.send('Maybe if we start telling people their brain is an app, they’ll want to use it.'); break;
         }
+        */
     }
 }
