@@ -25,12 +25,15 @@ A Discord Bot with the capabilities of elevating the users roles on any Discord 
  * Bot must be on the server for use
  * There are still a few bugs being worked with the '-create' and '-add' commands so expect a few issues
  * There is no multi-command handling so if more than one person tries to use a command at the same time nothing will happen for either of them. If needed on multiple servers it is recommened to host different instances of the bot
- * This bot is meant to be used as a privilege escalation tool for Discord servers
+ * This bot is meant to be used as a role escalation test for Discord servers
  * Bot can be customized to be used however is needed to maintain cover, the default is the 'Funny Bot' cover which includes some jokes and other commands; customizing requires some discord.js knowledge
  * Commands can be added and removed for modularity, again, some discord.js knowledge is needed
 
 ---
 # Change Log
+
+## v1.3 Changes
+* Switched joke command from using hardcoded jokes to using the icanhasdadjoke api to generate jokes
 
 ## v1.3 Changes
 * Fixed security issues detected by GitHub Dependabot
