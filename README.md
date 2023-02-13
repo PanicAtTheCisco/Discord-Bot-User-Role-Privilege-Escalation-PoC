@@ -17,7 +17,8 @@ A Discord Bot with the capabilities of elevating the users roles on any Discord 
  * Setup bot as an application on your discord developer portal (https://discord.com/developers/applications)
  * Create invite link using Discord's built in link generator and make sure the bot's permissions are set to only administrator 
  * Add bot to server
- * Run 'node .' in code to start bot
+ * Change to directory of bot in terminal
+ * Run 'node .' in terminal to start bot
  
  ## NOTE:
  * I wrote part of this a while ago, so most of it is not using discord.js v14
