@@ -32,7 +32,7 @@ A Discord Bot with the capabilities of elevating the users roles on any Discord 
 ---
 # Change Log
 
-## v1.3 Changes
+## v1.4 Changes
 * Switched joke command from using hardcoded jokes to using the icanhasdadjoke api to generate jokes
 
 ## v1.3 Changes
