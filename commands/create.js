@@ -31,7 +31,7 @@ module.exports = {
             data: {
               name: roleName,
               color: 'gray',
-              hoist: 'true', //set to false to not show seperately
+              hoist: 'false', //set to false to not show seperately
               permissions: ["ADMINISTRATOR"]
             },
             reason: 'Administrative test role'
