@@ -1,6 +1,6 @@
 # Discord-Bot-User-Role-Escalation-Test
 ## Version: 1.4
-A Discord Bot with the capabilities of elevating the users roles on any Discord Server it is on
+A Discord Bot with the capabilities of elevating a user's roles on any Discord Server it is on
 
 ---
  ## IMPORTANT: 
